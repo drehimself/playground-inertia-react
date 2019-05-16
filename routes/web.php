@@ -1,5 +1,7 @@
 <?php
 
+use Inertia\Inertia;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +16,7 @@
 Route::get('/', function () {
     // return view('welcome');
 
-    return Inertia::render('Event', [
+    return Inertia::render('Welcome', [
         'foo' => 'bar'
     ]);
 });
