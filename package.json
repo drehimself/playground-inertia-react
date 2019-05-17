@@ -23,8 +23,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "@babel/core": "^7.4.4",
         "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/preset-react": "^7.0.0",
         "inertia-react": "github:inertiajs/inertia-react",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"

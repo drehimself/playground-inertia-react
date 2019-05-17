@@ -14,9 +14,19 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    // return view('welcome');
+    return Inertia::render('Home', [
+        'foo' => 'bar'
+    ]);
+});
 
-    return Inertia::render('Welcome', [
+Route::get('/about', function () {
+    return Inertia::render('About', [
+        'foo' => 'bar'
+    ]);
+});
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact', [
         'foo' => 'bar'
     ]);
 });
